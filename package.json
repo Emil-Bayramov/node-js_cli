@@ -1,0 +1,27 @@
+{
+  "name": "node-js_cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emil-Bayramov/node-js_cli.git"
+  },
+  "author": "Emil Bayramov <mlbyrmv@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emil-Bayramov/node-js_cli/issues"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "uuid": "^9.0.0"
+  }
+}
